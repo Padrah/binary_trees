@@ -1,5 +1,11 @@
 #include "binary_trees.h"
 
+/**
+ * binary_tree_height_b - it Measures height of a binary tree for a bal tree
+ * @tree: tree to go through
+ * Return: the height
+ */
+
 size_t binary_tree_height_b(const binary_tree_t *tree)
 {
 	size_t l = 0;
